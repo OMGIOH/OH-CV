@@ -512,6 +512,7 @@
     var scrollSections = [
         { id: 'hero-wrapper', file: 'home' },
         { id: 'skills-page', file: 'skills' },
+        { id: 'education-page', file: 'education' },
         { id: 'experience-page', file: 'experience' }
     ];
     var sectionEls = scrollSections.map(function (s) { return document.getElementById(s.id); });

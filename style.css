@@ -490,6 +490,115 @@ html.lang-zh .timeline-subtitle {
     cursor: grabbing;
 }
 
+/* ============== Skills Grid (text) ============== */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.skill-block {
+    background: var(--pixel-bg);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid #ffffff;
+    padding: 20px 24px;
+    text-align: left;
+}
+
+.skill-title {
+    font-family: var(--card);
+    font-size: clamp(13px, 1.5vw, 16px);
+    color: #ffff00;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+}
+
+.skill-desc {
+    font-family: var(--card);
+    font-size: 0.8rem;
+    color: #ffffff;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+/* ============== Education ============== */
+.education-page {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: 60vh;
+    padding: 80px 20px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-title {
+    font-family: var(--pixel);
+    font-size: clamp(16px, 3vw, 32px);
+    color: #ffff00;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.5), 3px 3px 0 #ffffff;
+    letter-spacing: 0.1em;
+    margin-bottom: 40px;
+}
+
+.edu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    width: 100%;
+    max-width: 860px;
+}
+
+.edu-card {
+    background: var(--pixel-bg);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid #ffffff;
+    padding: 20px 24px;
+    text-align: left;
+}
+
+.edu-date {
+    font-family: var(--card);
+    font-size: 0.8rem;
+    color: #ffff00;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.edu-org {
+    font-family: var(--card);
+    font-size: clamp(13px, 1.6vw, 16px);
+    color: #ffff00;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.edu-degree {
+    font-family: var(--card);
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+    display: block;
+}
+
+.edu-courses {
+    font-family: var(--card);
+    font-size: 0.75rem;
+    color: #ffffff;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
 /* ============== Experience / Timeline ============== */
 .experience-page {
     position: relative;
