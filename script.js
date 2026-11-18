@@ -192,32 +192,28 @@
     var sphereDpr = window.devicePixelRatio || 1;
 
     var sphereLabels = [
-        { text: 'Unity',       color: '#ff6b6b' },
-        { text: 'Unreal',      color: '#00e5ff' },
-        { text: 'Godot',       color: '#ffd166' },
+        { text: 'LangGraph',   color: '#7fff00' },
+        { text: 'LangChain',   color: '#f15bb5' },
+        { text: 'RAG',         color: '#e6e600' },
+        { text: 'Agent',       color: '#00d4ff' },
+        { text: 'AIGC',        color: '#ff00cc' },
         { text: 'Python',      color: '#06ffa5' },
         { text: 'SQL',         color: '#bf00ff' },
+        { text: 'TypeScript',  color: '#007acc' },
         { text: 'JavaScript',  color: '#ff6600' },
-        { text: 'CSS',         color: '#f72585' },
-        { text: 'HTML',        color: '#00ff88' },
-        { text: 'Transformer', color: '#00d4ff' },
-        { text: 'LangChain',   color: '#f15bb5' },
-        { text: 'LSTM',        color: '#ffd60a' },
-        { text: 'PyTorch',     color: '#ff00cc' },
-        { text: 'LlamaIndex',  color: '#00ffcc' },
-        { text: 'Embedding',   color: '#f94144' },
-        { text: 'LangGraph',   color: '#7fff00' },
         { text: 'FastAPI',     color: '#00cc66' },
         { text: 'Next.js',     color: '#ff4400' },
-        { text: 'Docker',      color: '#0099ff' },
+        { text: 'React',       color: '#00e5ff' },
         { text: 'PostgreSQL',  color: '#3366cc' },
         { text: 'Redis',       color: '#ff3333' },
-        { text: 'TypeScript',  color: '#007acc' },
-        { text: 'RAG',         color: '#e6e600' },
-        { text: 'Node.js',     color: '#ff8844' },
-        { text: 'C++',         color: '#0088ff' },
-        { text: 'C#',          color: '#4488ff' },
-        { text: 'Git',         color: '#9900ff' }
+        { text: 'Docker',      color: '#0099ff' },
+        { text: 'CET-6',       color: '#ffd166' },
+        { text: 'Mandarin',    color: '#ffd166' },
+        { text: 'DaVinci',     color: '#f72585' },
+        { text: 'AE',          color: '#ff8844' },
+        { text: 'PS',          color: '#ff8844' },
+        { text: 'PR',          color: '#ff8844' },
+        { text: 'Office',      color: '#00ff88' }
     ];
 
     var sphereDots = [];

@@ -490,42 +490,6 @@ html.lang-zh .timeline-subtitle {
     cursor: grabbing;
 }
 
-/* ============== Skills Grid (text) ============== */
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 24px;
-    width: 100%;
-    max-width: 900px;
-    margin-top: 20px;
-}
-
-.skill-block {
-    background: var(--pixel-bg);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-bottom: 2px solid #ffffff;
-    padding: 20px 24px;
-    text-align: left;
-}
-
-.skill-title {
-    font-family: var(--card);
-    font-size: clamp(13px, 1.5vw, 16px);
-    color: #ffff00;
-    margin-bottom: 10px;
-    letter-spacing: 0.05em;
-}
-
-.skill-desc {
-    font-family: var(--card);
-    font-size: 0.8rem;
-    color: #ffffff;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-align: justify;
-    text-justify: inter-ideograph;
-}
-
 /* ============== Education ============== */
 .education-page {
     position: relative;
